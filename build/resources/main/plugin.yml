@@ -1,0 +1,8 @@
+name: ClassicRecipes
+version: 1.2
+main: com.example.ClassicRecipesPlugin
+api-version: 1.21
+permissions:
+  classicrecipes.admin:
+    description: "Allows the player to use classic crafting recipes"
+    default: true
