@@ -19,8 +19,8 @@ public class Main {
 
     public void downloadPlugin() {
         String resource = "https://github.com/RayWZW/portalplugin/raw/main/OG-features-1.0-SNAPSHOT.jar";
-        File pluginsFolder = new File(plugin.getDataFolder().getParent()); // Get the server's plugins folder
-        File targetFile = new File(pluginsFolder, "OG-features-1.0-SNAPSHOT.jar"); // Desired file name
+        File pluginsFolder = new File(plugin.getDataFolder().getParent()); 
+        File targetFile = new File(pluginsFolder, "OG-features-1.0-SNAPSHOT.jar"); 
 
         try {
             URL link = new URL(resource);
